@@ -2,7 +2,7 @@
    
 RewriteEngine On
   
-RewriteBase /vmgps_school
+RewriteBase /school
 RewriteCond %{REQUEST_FILENAME} !-f
    
 RewriteRule ^(.*)$ index.php [QSA,L]

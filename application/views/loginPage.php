@@ -61,7 +61,7 @@
 						<!--<img src="<?php /*echo base_url('resource/interface/img/islamiAcademy.jpg'); */?>" class="" style="width: 882px" />-->
 
 					</div>
-					<div class="col-sm-8 col-sm-offset-2" style="width: 907px">
+					<div class="col-sm-8 col-sm-offset-2">
 						<div class="">
 							<!-- <div class="center">
 								<h1>
