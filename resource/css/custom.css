@@ -1,0 +1,398 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+body {
+	background:#FFFFFF !important;
+}
+.attachmentbody{
+	width: 114px;
+	height: 110px;
+	float: left;
+}
+.attachmentbody .progress{
+	height: 12px;
+	margin-top: 45px;
+}
+.attachmentbody ul {
+	border-radius: 5px;
+	list-style: outside none none;
+	position: relative;
+	float: left;
+	padding: 0;
+}
+.attachmentbody ul li.remove{
+	top: 0;
+	right: 5px;
+	position: absolute;
+}
+.attachmentbody img {
+	border-radius: 5px;
+	height: 100px;
+	width: 100px;
+	padding: 5px;
+}
+.attachmentbody ul.success {
+	border: 1px solid #339933;   
+}
+.attachmentbody ul.img_error {
+	background: #f0c6c3 none repeat scroll 0 0;
+	border: 1px solid #cc6622;
+}
+
+.hand {
+	cursor:pointer;
+}
+
+#alertMsg{
+	position:fixed;
+	bottom:45px;
+	right:0;
+	
+}
+
+
+
+
+.control-label {
+
+}
+.addInstant {
+	background:none;
+	border:none;
+	cursor:pointer;
+	color:#00646f;
+}
+
+.addInstant:hover {
+	color:#003300;
+}
+
+.no_radius {
+	border-radius:0px;
+}
+
+.pageLoader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../img/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+.emptyAlrt {
+ color:#FFFFFF !important;
+}
+.emptyAlrt:hover {
+	background:#000000 !important;
+}
+.paddingZero {
+	padding:0px !important;
+}
+
+.add_new {
+	cursor:pointer;
+}
+
+
+.pagi a {
+	color: black;
+ 	border: 1px solid #ddd;
+	padding: 8px 16px 8px !important;
+	border-radius : 0px !important;
+}
+
+.pagi strong {
+	background-color: #4CAF50;
+    color: white;
+	padding: 8px 16px;
+    border: 1px solid #4CAF50;
+}
+.midTitle {
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+
+.school_name {
+	font-family: Palatino Linotype;
+	font-size: 33px;
+	font-weight: bolder;
+	color:#FFFFFF !important;
+}
+
+.report_school_name {
+	font-family: Palatino Linotype,a;
+	font-size: 30px;
+	font-weight: bolder;
+	color:#000000 !important;
+}
+
+.school_adrs {
+	font-size: 20px;
+    text-align: center;
+	font-weight:bold;
+	color:#FFFFFF;
+	font-family:Estrangelo Edessa;
+}
+
+.report_school_adrs {
+	font-size: 20px;
+    text-align: center;
+	font-weight:bold;
+	color:#000000;
+	font-family:Estrangelo Edessa;
+}
+
+
+.interfaceBody {
+	background:#6AFF85 ;
+	border-left:5px solid #FFFFFF;
+	min-height:450px;
+}
+
+.all_module_right {
+	font-size: 36px;
+    text-align: center;
+	border-top:2px solid #003237;
+	margin-top:50px;
+}
+
+.boxShadow_1 {
+	box-shadow: 5px 4px 8px #333333;
+}
+.moduleBox {
+	margin:30px 0px 10px 0px;
+	border:1px solid #666666;
+	min-height:92px;
+}
+
+.moduleBox:hover {
+	box-shadow:none;
+	cursor:pointer;
+}
+.moduleIcon {
+}
+.moduleName {
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+}
+
+.shortModuleName {
+	font-size:16px;
+	font-weight:bold;
+}
+
+.myFooter {
+ border-top:2px solid #003237;
+ padding:10px 20px;
+ border-bottom:2px solid #003237;
+ margin:0px 0px 10px 0px;
+ background:#00a61e;
+  color:#FFFFFF
+}
+.myFooter a {
+   color:#FFFFFF;
+	margin-right: 10px;
+}
+.logOut {
+    bottom: 900px;
+    left: 0;
+    width: 105px;
+	padding:3px; font-weight:bolder;
+	font-size:16px;
+	cursor:pointer;
+}
+
+.headerBox {
+	background:#ffffff !important;
+}
+.headerBox2 {
+	border:5px solid #FFFFFF;
+	border-right:0 solid #007814;
+	color: #FFFFFF;
+	background-color: #007814;
+}
+
+.headerBox4 {
+	border-left:5px solid #FFFFFF;
+	min-height:450px;
+}
+
+.headerBox4 a {
+	
+}
+
+.leftBox {
+	border:5px solid #FFFFFF;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+.leftBox a {
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.erpTitle {
+	font-size: 30px;
+    line-height: 58px;
+    text-align: center;
+	color:#FFFFFF;
+	font-weight:bolder;
+}
+
+.headerBox2 {
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.headerBox2 a {
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+@media only screen and (min-width: 768px) {
+	  .test{
+		
+	  }
+	}
+	
+.headerImgBox {
+	border: 5px solid #ffffff;
+}
+
+.middleContainer {
+	background:#00A61D;
+	border-left:5px solid #FFFFFF;
+}	
+.paddingZero {
+	padding:0px !important;
+}
+
+.brdrBottom {
+	border-bottom:5px solid #FFFFFF;
+}
+
+.titleErp  {
+	font-family: Palatino Linotype;
+	font-size: 28px;
+	font-weight: bolder;
+	color:#FEFA79 !important;
+}
+
+.borderTopTD {
+	border-top:2px solid #999999;
+}
+.displayNone {
+	display:none;
+}
+
+.tryAgain {
+	cursor:pointer;
+	padding:0px 10px;
+}
+.afterSubmitContent {
+	display:none;
+}
+.hiddenForm {
+	display:none;
+}
+
+.table-header {
+	padding: 0px 10px 4px;
+}
+.stuInfoHide {
+	display:none;
+}
+.pointerCls {
+	cursor:pointer;
+}
+
+.loadingPart {
+	display:none;
+}
+
+#dynamic-table {
+ background:#FFFFFF !important;
+}
+.existAlert {
+	color:#FF0000;
+}
+
+.notAllowModBox {
+	margin:30px 0px 10px 0px;
+	border:1px solid #666666;
+	min-height:92px;
+	
+}
+
+.notAllowModBox:hover {
+	box-shadow:none;
+}
+
+.authorName {
+	color:#000000;
+	font-weight:bold;
+	left:0px !important;
+	bottom:10px;
+}
+
+.authorNameShowfh {
+	display:block;
+	left:0;
+	bottom:100px;
+}
+
+.initialAgain {
+	padding:0px 5px;
+}
+.notEqualBg {
+	background:#F5F5F5;
+ }
+.noDueBg {
+	background:#ECECFF;
+ }
+ .equalBg {
+ 	background:#FFFFFF;
+ } 
+ .testimonial{
+    background: url('../img/Testimonial.jpg')50% 50% no-repeat;
+	height:800px;
+	text-align:center;
+ }
+ 
+  .transfer{
+    background: url('../img/Transfer.jpg')50% 50% no-repeat;
+	height:860px;
+	text-align:center;
+ }
+ 
+  .promotinal{
+    background: url('../img/Promotional.jpg')50% 50% no-repeat;
+	height:860px;
+	text-align:center;
+ }
+ 
+   
+	.reportTable tr td{
+		border:1px solid #000000 !important;
+		padding:0px 5px;
+	}
+	.reportTable tr th{
+		border:2px solid #000000 !important;
+		padding:0px 5px;
+	}
+.company-name{
+	font-size: 20px;
+	color: white;
+	font-weight: 700;
+}

@@ -1,0 +1,22 @@
+*{margin:0;padding:0}
+body{font-size:14px;font-style:normal;font-family:arial;line-height20px;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;margin-bottom:15px;}
+a{color:#1d3f5a}
+a:hover{text-decoration:none;}
+
+.modiul_main_raper{display: block;margin: 0 auto;width: 960px;}
+.bg_img{position: relative;}
+.bg_img img{height: 950px;width: 960px;}
+.modiul_page{left: 25%;position: absolute;top: 30%;width: 952px;}
+.modiul_block{overflow: hidden;width: 954px;}
+.single_modu {background: #fff none repeat scroll 0 0;border: 3px solid #ddd000;float: left;font-size: 30px;margin: 0 12px;opacity: 0.5;overflow: hidden;padding: 18px;}
+.modiul_block a:hover{background: #ff0 none repeat scroll 0 0;}
+.admission{}
+.acconuts{}
+.humen_resorce{}
+.result{}
+.block{}
+.content_modiul {margin: 46px 54px 30px;overflow: hidden;text-align: center;}
+.Mmdiul_bottom{float: right;margin: 263px 15px 0 0;}
+.Mmdiul_bottom p{color: #969497;font-size: 11px;text-align: right;}
+.Mmdiul_bottom a{text-decoration:none;}

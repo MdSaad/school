@@ -1,0 +1,44 @@
+
+
+
+*{margin:0;padding:0}
+body{background:#A0B9BE; display: block;font-family:arial;font-style:normal;font-size:14px;line-height:20px;margin: 0 auto;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;margin-bottom:15px;}
+a{color:#1d3f5a}
+a:hover{text-decoration:none;}
+
+.main_header{background:#5D9BBB;height:0px;overflow: hidden;}
+.main_content_body{overflow: hidden;}
+.menu_left{background: #00AEBF;float: left;height: 100%;overflow: hidden;padding: 20px;}
+.std_admission_height_left {height:850px} 
+/** .std_admission_height_right {height:800px}*/
+.menu{}
+.menu ul{margin: 0;padding: 0;list-style: none;}
+.menu ul li{background: #45AAA0 none repeat scroll 0 0;border: 1px solid #ddd;box-shadow: 0 3px 5px;margin: 3px 0;padding: 6px 0;text-align: center;}
+.menu ul li a{color: #ddd;font-size: 16px;font-weight: bold;text-decoration: none;}
+.menu ul li a:hover{color: #fff;height:20px;}
+.main_page{float: right; background: #00aebf;height: 890px;}
+
+.student_basic_info{}
+.std_basic_info_header{border-bottom: 2px solid;}
+.hea_top{overflow: hidden;}
+.logo{float: left;}
+.logo img{height: auto;margin: 12px;}
+.school_name{margin: 0px 3px 0;overflow: hidden;padding-top:20px;}
+.school_name h1{font-size: 56px;line-height: 58px;text-align: center;}
+.school_name h2{text-align: center;}
+.student_foto{float: right;margin-right: 9px;margin-top: -166px;}
+.student_img{background: #fff none repeat scroll 0 0;height: 120px;}
+.browse_btn {margin: 9px 23px;width: 76px;}
+.hea_down{margin-left: 130px;overflow: hidden;width: 485px;}
+.single_dow{float: left;}
+.find_field{}
+.find_field h1{font-family: arial;font-size: 20px;margin-top: 4px;}
+.find_t_f {height: 25px;margin: 0 20px;width: 246px;}
+.find_btn{float: right;margin-top: -21px;}
+.btn_f{height: 29px;width: 75px;}
+.std_basic_info_datafild{padding: 30px;}
+.std_basic_info_datafild h1{font-size: 38px;line-height: 36px;text-align: center;}
+.std_basic_info_datafild p{display: block;margin: 0 auto;width: 500px;}
+.std_basic_info_footer{background: #ddd none repeat scroll 0 0;border-top: 2px solid;height: 25px;margin-top: 5px;padding: 14px 5px;}
+.std_basic_info_footer p{float:right;margin-right: 15px;margin-top: -33px;}

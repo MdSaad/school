@@ -1,0 +1,145 @@
+/** total body height */
+.all_mud_height_width {width: 100%;}
+
+.menu_left_student_bc_info{height: 845px;}
+.main_page_student_bc_info{height: 885px;}
+
+.menu_left_student_patrnts_info{height: 1125px;}
+.main_page_student_patrnts_info{height: 1165px;}
+
+.menu_left_student_essential_info{height: 845px;}
+.main_page_student_essential_info{height: 885px;}
+
+.menu_left_student_general_report_info {height: 865px;}
+.main_page_student_general_report_info {height: 905px} 
+
+
+
+
+/**seclected item (drop down) start */
+.secect_item_menage{float: right;padding-right: 1px; width:191px; }
+.sec_height {height: 23px;border: 1px solid #feabff;}
+.bd_d_width {}
+.bd_m_width {width: 70px;}
+.bd_y_width {width: 56px; float:right;  margin-top: 4px;}
+.sex_width {width: 191px;}
+.std_blood_group_width {width: 191px;}
+.std_class_width {width: 191px;}
+.class_roll_width {width: 191px;}
+.section_width {width: 191px;}
+.group_width {width: 191px;}
+.shift_width {width: 191px;}
+.campus_br_width {width: 191px;}
+.std_status_width {width: 191px;}
+.std_type_width {width: 191px;}
+.entry_d_width {}
+.entry_m_width {width: 70px;}
+.entry_y_width {width: 56px;}
+/** seclected item (drop down) end  */
+
+
+/**student basic information css start */
+.std_basic_info_datafild{padding: 5px;}
+.std_basic_info_datafild h2{font-size: 32px;margin-top: 20px;text-align: center;}
+.hori_line {border-color: #ddd;margin-left: 32px;width: 672px;}
+.std_basic_info_datafild p{font-size: 25px;margin-top: 5px;text-align: center;}
+.information_body{box-shadow: 0 5px 7px;margin: 30px 0;padding: 10px 0;width: 100%;}
+.save_update_btn{margin: 16px 0;text-align: center;}
+.stor_btn{}
+.single_stor_btn{box-shadow: 4px 3px 6px;height: 36px;width: 94px;}
+.data_input_output{line-height: 31px;overflow: hidden;}
+.data_input{}
+.single_tex_field{border: 1px solid #feabff;float: right;height: 21px;margin-top: 5px;width: 190px;}
+.data_input_left{float: left; padding-left: 5px;width: 48%;}
+.select_std_birth_day{}
+.bg_sex{}
+.select_std_sex{}
+.sin_bg_sex{}
+.select_std_blood_group{}
+.data_input_right{float: right;padding-right: 5px;width: 48%;}
+.select_std_class{}
+.select_std_class_roll{}
+.select_std_section{}
+.select_std_group{}
+.select_std_class_sheft{}
+.select_std_status{}
+.select_std_type{}
+.select_std_entry_date{}
+/**student basic information css end */
+
+/** all modiul start  */
+.logo_all_mud {margin: 5px 0 0 142px;}
+.school_name_all_mud {}
+.school_name_all_mud h1{}
+.school_name_all_mud h2{}
+.all_mud_munu_left {width: 210px;}
+.all_modiul_right {padding-bottom: 40px;width: 100%;}
+.all_modiul_right h1 {box-shadow: 3px 4px 11px;padding: 10px 0;}
+
+.modiul_index {box-shadow: 0 0 13px;}
+.modiul_index a{}
+.single_modiul {border: 1px solid;box-shadow: 2px 6px 5px;float: left;height: 100px;margin: 6px 21px;padding: 10px 0;width: 430px;}
+.single_modiul:hover {box-shadow: 0px 0px 0px;}
+.modiul_icon {float: left;width: 74px;}
+.modiul_icon img{height: auto;width: 74px;}
+.modiul_name_h1_p {float: right;margin-right: 18px;width: 325px;}
+.modiul_name_h1_p h1{font-size: 20px;font-weight: normal;margin: 0;line-height: 24px;padding: 0;}
+.modiul_name_h1_p p{font-size: 16px;margin: 8px 0 0;text-align: center;width: 325px;}
+/** all modiul end  */
+
+
+/** student parents and gurdian information start  */
+.gurdian {}
+.gurdian p{margin-left: 119px;}
+.parents_ma_bo {margin-bottom: 30px;
+overflow: hidden;}
+/** student parents and gurdian information end  */
+
+
+/** student essential information start  */
+.std_essential {line-height: 25px;margin-top: 34px;}
+.std_essential p{float: left;font-size: 17px;width: 100%;}
+.std_essential_pading {padding: 0 15px;}
+.checkbox_margin {margin-right: 5px;}
+/** student essential information end  */
+
+/** student admition general report start  */
+.general_eomplex {line-height: 30px;margin-bottom: 25px;}
+.admition_general_riport {display: block;font-size: 20px;margin: 0 auto; overflow: hidden;width: 540px;}
+.std_general_re_h1 {float: left;}
+.admition_general_riport h1{font-size: 28px;}
+.std_general_find_t_f {height: 25px;margin-left: 15px;width: 255px;}
+.std_find_btn_std_general_report {float: right;margin-top: -31px;width: 80px;}
+.std_general_btn_f {padding: 2px 0;width: 80px;}
+.admition_general_complex_riport_y_width {width: 191px;}
+.show_btn_area {}
+.show_btn {}
+.report_show_area {display: block;
+height: 250px;
+margin: 0 auto;
+width: 720px;}
+.report_show {}
+.left_complex_inem {float: left;width: 355px;}
+.right_complex_inem {float: right;width: 355px;}
+
+
+
+/** index start  */
+.usoft_icon {width: 60px;}
+.usoft_icon  img{width: 60px;}
+
+/** report system */
+.report_mud_weidth {margin-left: 155px;}
+
+/** students admition system */
+.usoft_big_logo {}
+.usoft_big_logo img{padding: 68px;width: 600px;}
+
+
+
+
+
+
+
+
+
